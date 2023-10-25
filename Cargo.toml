@@ -1,0 +1,16 @@
+[package]
+name = "transaction-rollback"
+description = "TODO"
+license = "MIT"
+version = "0.1.0"
+authors = ["Tudock GmbH <altair@tudock.de>", "Marco Köpcke <marco.koepcke@tudock.de>"]
+edition = "2021"
+homepage = "https://github.com/TUDOCK/transaction-rollback"
+repository = "https://github.com/TUDOCK/transaction-rollback"
+readme = "README.md"
+
+[dependencies]
+try-drop = "0.2"
+
+[dev-dependencies]
+thiserror = "1"
